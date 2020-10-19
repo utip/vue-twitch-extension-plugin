@@ -67,7 +67,7 @@ this.$twitch.publishConfig({key: 'value'}, segment = 'broadcaster', version = '1
 ```
 
 ### Twitch context
-The Twitch context (theme, language, current game ...) is available inside your component with:
+The Twitch context (theme, language, current game...) is available inside your component with:
 ```js
 this.$twitch.context
 ```

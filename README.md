@@ -32,7 +32,7 @@ In your HTML template import the twitch-ext module:
 Then install the plugin
 ```js
 import Vue from 'vue'
-import TwitchExtensionPlugin from 'vue-twitch-extension-plugin';
+import TwitchExtensionPlugin from '@utip/vue-twitch-extension-plugin';
 
 Vue.use(TwitchExtensionPlugin)
 ```

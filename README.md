@@ -3,6 +3,16 @@
 Vue Twitch extension plugin is Vue.js plugin made to help you to develop Twitch extension.
 
 ## Installation: 
+This package is published on Github packages.
+Before installing it you need to add a `.npmrc` file in your project that contain:
+```
+registry=https://npm.pkg.github.com/utip
+```
+
+Install with
+```bash
+npm install @utip/vue-twitch-extension-plugin
+```
 
 In your HTML template import the twitch-ext module:
 ```html

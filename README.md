@@ -57,3 +57,10 @@ For each segment the configuration is stored as JS object. You can update a conf
 ```js
 this.$twitch.publishConfig({key: 'value'}, segment = 'broadcaster', version = '1.0')
 ```
+
+### Twitch context
+
+The Twitch context (theme, language, current game ...) is available inside your component with:
+```js
+this.$twitch.context
+```

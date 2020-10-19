@@ -1,9 +1,10 @@
 {
-  "name": "vue-twitch-extension-plugin",
+  "name": "@utip/vue-twitch-extension-plugin",
   "version": "0.0.1",
   "description": "A Vue.js plugin to develop twitch extensions",
   "main": "src/index.js",
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "repository": "git://github.com/utip/vue-twitch-extension-plugin.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
